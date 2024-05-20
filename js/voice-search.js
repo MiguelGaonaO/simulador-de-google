@@ -34,7 +34,7 @@ const voiceRecognition = () =>{
     window.open("https://google.com/search?q="+voiceText);
     },1800)
 }
-    recognition.start();
+    recognition.start(); 
 }
 
 document.querySelector('.form__microphone-icon').addEventListener("click",voiceSearchModalOpen);
